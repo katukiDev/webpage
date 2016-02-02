@@ -12,44 +12,32 @@
         color: #CC0000
       }
 
-      .contenedor {
-        position: relative;
-        height: 400px;
-        width: 400px;
-        margin: 20px auto;
+      .image-wrapper {
         text-align: center;
+        height: 400px;
+        margin: 20px auto;
       }
 
-      .contenedor img {
-        position: absolute;
-        left: 0;
-        transition: opacity 1.5s ease-in-out;
-      }
-
-      .contenedor img.top:hover {
-        cursor:pointer;
-        opacity: 0;
+      .text-wrapper{
+        text-align: center;
+        margin-top: 80px;
       }
 
       .footer{
         color: #8c8c8c;
-        width:100%;
         text-align: center;
-
+        bottom: 0;
+        width: 100%;
       }
     </style>
 </head>
 <body>
-<div class="contenedor">
-<h1 title="Katukisaguyaki Kukuxumusu">
-    <img class="top" src="katuki.gif" alt="katuki" />
-</h1>
-
+<div class="image-wrapper">
+      <img src="katuki.gif" alt="katuki" />
 </div>
-<div class="contenedor">
+<div class="text-wrapper">
   <h2>No eres tú, soy yo...</h2>
-<p><a href="http://kukuxumusu.com" onclick="ga('send', 'event', 'kukuxu', 'kukuxu', 'kukuxu');">Kukuxumusu</a> o <a href="http://kukuxumusu.com" onclick="ga('send', 'event', 'katuki', 'katuki', 'katuki');">Katuki Saguyaki</a> </p>
-
+  <p><a href="http://kukuxumusu.com" onclick="ga('send', 'event', 'kukuxu', 'kukuxu', 'kukuxu');">Kukuxumusu</a> o <a href="http://kukuxumusu.com" onclick="ga('send', 'event', 'katuki', 'katuki', 'katuki');">Katuki Saguyaki</a> </p>
 </div>
 <div class="footer">
   <p><a href="mailto:katukideves@hotmail.com" >¿Tienes alguna sugerencia?</a></p>
